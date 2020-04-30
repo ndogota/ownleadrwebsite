@@ -1,8 +1,17 @@
 /*  typography */
+@font-face {
+  font-family: "Helvetica400";
+  src : url("../fonts/Helvetica400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaBold";
+  src : url("../fonts/HelveticaBold.ttf") format("truetype");
+}
 
 body {
   line-height: 1.2;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica400", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #4c4c4c;
@@ -13,7 +22,7 @@ p, .paragraph {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica400", sans-serif;
 }
 
 p-lg, .paragraph-lg {
@@ -22,7 +31,7 @@ p-lg, .paragraph-lg {
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
-  font-family: "Helvetica Neue", serif;
+  font-family: "HelveticaBold", serif;
   line-height: 1.2;
 }
 
@@ -63,9 +72,10 @@ h6, .h6 {
 }
 
 /* Button style */
+
 .btn {
   font-size: 22px;
-  font-family: "Helvetica Neue", serif;
+  font-family: "Helvetica400", serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -92,7 +102,17 @@ h6, .h6 {
 
 .btn-xs {
   padding: 5px 10px;
-  font-size: 15px;
+  font-size: 20px;
+}
+
+#btn-discover {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-height: 90px;
+  font-size: 50px;
+  font-family: "HelveticaBold", sans-serif !important;
+  color: #ffffff;
 }
 
 .btn-primary {
@@ -115,7 +135,7 @@ h6, .h6 {
 
 .btn-transparent {
   background: transparent;
-  color: #41228e;
+  color: #111111;
   font-weight: bold;
 }
 
@@ -129,13 +149,17 @@ body {
 }
 
 ::-moz-selection {
-  background: #542cb7;
+  background: rgba(162, 48, 79, 0.29);
   color: #fff;
 }
 
 ::selection {
-  background: #542cb7;
+  background: rgba(162, 48, 79, 0.29);
   color: #fff;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
 }
 
 /* preloader */
@@ -200,8 +224,9 @@ a:hover {
 }
 
 .section-title {
-  margin-bottom: 80px;
-  font-family: "Helvetica Neue", serif;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  font-family: "Helvetica400", serif;
 }
 
 .bg-cover {
@@ -243,7 +268,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #41228e !important;
+  color: #a2304f !important;
 }
 
 .text-color {
@@ -311,11 +336,12 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: "Helvetica Neue", serif !important;
+  font-family: "Helvetica400", serif !important;
+  font-size: 50px;
 }
 
 .font-tertiary {
-  font-family: "Helvetica Neue", serif !important;
+  font-family: "HelveticaBold", serif !important;
 }
 
 .shadow {
@@ -428,7 +454,7 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "Helvetica 65 Medium", serif;
+  font-family: "Helvetica400", serif;
   text-transform: uppercase;
   padding: 15px;
 }
@@ -439,6 +465,10 @@ textarea.form-control {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
+}
+
+#methodButtonArea {
+  background-color: black;
 }
 
 .hero-area {
@@ -760,7 +790,7 @@ blockquote {
 }
 
 .content strong {
-  font-family: "Helvetica Neue", serif;
+  font-family: "Helvetica400", serif;
   font-size: 22px;
   font-weight: normal;
   color: #000;
@@ -890,6 +920,72 @@ blockquote {
 
 .filter-controls li.active {
   font-weight: bold;
+}
+
+/* Images */
+
+#imageGenius {
+  max-width: 260px;
+  max-height: 260px;
+  padding-right: 100px;
+  margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+  #imageGenius {
+    max-width: 150px;
+    max-height: 150px;
+    padding-right: 40px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+  }
+
+  #homepage-quote {
+    font-size: 35px !important;
+  }
+
+  #btn-discover {
+    font-size: 25px !important;
+  }
+
+  #hero-area-container {
+    padding-left: 40px;
+  }
+
+  .photo-info {
+    text-align: center;
+  }
+
+  .mobile-info-view {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .w-50 {
+    width: inherit !important;
+  }
+
+  .w-25 {
+    width: inherit !important;
+    max-width: 80%;
+  }
+
+  .h-25 {
+    width: inherit !important;
+    max-height: 80%;
+  }
+
+  .information-text {
+    padding-left: 30px;
+  }
+}
+
+.information-text {
+  color: white !important;
+  font-family: "Helvetica400", sans-serif;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
