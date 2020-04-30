@@ -345,7 +345,7 @@ a:hover {
 }
 
 .shadow {
-  box-shadow: 0px 18px 39.1px 6.9px rgba(0, 0, 0, 0.34) !important;
+  box-shadow: 0px 18px 39.1px 6.9px rgba(9, 9, 9, 0.15) !important;
 }
 
 .bg-dark {
@@ -463,6 +463,10 @@ textarea.form-control {
   color: #a2304f !important;
 }
 
+.citation-font {
+  font-family: "Helvetica400", serif;
+  font-size: 20px;
+}
 
 .navbar .nav-item.active {
   font-weight: bold;
@@ -641,6 +645,11 @@ textarea.form-control {
   background: #a2304f;
 }
 
+.active-bg-secondary {
+  transition: .3s ease;
+  background: #181818;
+}
+
 .active-bg-primary * {
   color: #fff;
 }
@@ -701,7 +710,7 @@ textarea.form-control {
 /* /portfolio */
 /* testimonial */
 .testimonial-content strong {
-  color: #2bfdff;
+  color: #a2304f;
   font-weight: normal;
 }
 
@@ -933,6 +942,11 @@ blockquote {
 
 /* Images */
 
+.image-methode-3C {
+  max-width: 400px;
+  max-height: 400px;
+}
+
 #imageGenius {
   max-width: 260px;
   max-height: 260px;
@@ -947,6 +961,11 @@ blockquote {
     padding-right: 40px;
     margin-top: -80px;
     margin-bottom: 20px;
+  }
+
+  .image-methode-3C {
+    max-width: 200px;
+    max-height: 200px;
   }
 
   #homepage-quote {
@@ -988,6 +1007,11 @@ blockquote {
 
   .information-text {
     padding-left: 30px;
+    font-size: 17px !important;
+  }
+
+  .citation-font {
+    font-size: 17px !important;
   }
 }
 
@@ -995,6 +1019,15 @@ blockquote {
   color: white !important;
   font-family: "Helvetica400", sans-serif;
   font-size: 20px;
+}
+
+.text-methode-3C {
+  color: white !important;
+  font-size: 20px;
+}
+
+.container-methode-3C {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
