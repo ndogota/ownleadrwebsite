@@ -459,6 +459,10 @@ textarea.form-control {
   padding: 15px;
 }
 
+.nav-link:hover {
+  color: #a2304f !important;
+}
+
 .navbar .nav-item.active {
   font-weight: bold;
 }
