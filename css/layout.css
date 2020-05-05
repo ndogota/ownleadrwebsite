@@ -144,7 +144,7 @@ header .scrolldown a:hover { color: #a2304f; }
     left: 0;
     top: 0;
 }
-.opaque { background-color: #010101; }
+.opaque { background-color: #111111; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -181,6 +181,8 @@ ul#nav li a {
     -o-transition: color .2s ease-in-out;
     -ms-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
+
+    font-size: 1.1em;
 }
 
 ul#nav li a:active { background-color: transparent !important; }
