@@ -1,619 +1,483 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html class="no-js" lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>OwnLeadr. - Explorez le potentiel qui sommeille en vous</title>
-
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <!-- ** Plugins Needed for the Project ** -->
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <!-- slick slider -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <!-- themefy-icon -->
-  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
-
-  <!-- Main Stylesheet -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <!--Favicon-->
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
+    <meta charset="utf-8">
+    <title>Nicolae Dogotaru</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <script src="js/modernizr.js"></script>
+    <link rel="shortcut icon" href="favicon.png" >
 </head>
-
 <body>
-
-
-<header class="navigation fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary h3" href="#parallax"><img src="images/logo.png" alt="Myself"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-            aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon icon-light"></span>
-    </button>
-
-    <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#parallax">Acceuil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#services">Nos Solutions</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#services">Nos Solutions</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#methode-3C">Méthode 3C</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#blog">Événements</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#calendly">Coaching</a>
-        </li>
-      </ul>
+<header id="home">
+    <nav id="nav-wrap">
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+        <div class="row">
+            <div class="three columns">
+                <img class="logo-ownleadr" src="images/logo-ownleadr.png" alt="logo-ownleadr"/>
+            </div>
+            <ul id="nav" class="nav">
+                <li class="current"><a class="smoothscroll" href="#home">Acceuil</a></li>
+                <li><a class="smoothscroll" href="#about">Nos Solutions</a></li>
+                <li><a class="smoothscroll" href="#resume">Méthode 3C</a></li>
+                <li><a class="smoothscroll" href="#portfolio">Articles</a></li>
+                <li><a class="smoothscroll" href="#contact">Coaching</a></li>
+                <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row banner">
+        <div class="banner-text">
+            <img class="image-genius" src="images/pictogrammes/GeniusPicto.png" alt="genius-picto" />
+            <h1 class="responsive-headline">Explorez le potentiel qui sommeille en vous</h1>
+            <a href="#" id="discover-button" class="button">Découvrir</a>
+            <ul class="social">
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
     </div>
-  </nav>
+    <p class="scrolldown">
+        <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+    </p>
 </header>
-
-<!-- hero area -->
-<section class="hero-area bg-primary" id="parallax">
-  <div id="hero-area-container" class="container">
-    <div class="row">
-      <div class="col-lg-9 mx-auto">
-        <div class="row">
-          <img id="imageGenius" src="images/pictogrammes/GeniusPicto.png"/>
-          <div class="flex-column">
-            <h1 id="homepage-quote" class="text-white font-tertiary">Explorez <br> le potentiel qui <br> sommeille en vous</h1>
-            <a href="#methode-3C" id="btn-discover" class="btn btn-xs btn-primary btn-discover">Découvrir</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="layer-bg w-100">
-    <img class="img-fluid w-100" src="images/illustrations/leaf-bg.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l2">
-    <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l3">
-    <img src="images/illustrations/leaf-orange.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l4">
-    <img src="images/illustrations/dots-orange.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l5">
-    <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l6">
-    <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l7">
-    <img src="images/illustrations/dots-group-orange.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l8">
-    <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l9">
-    <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
-  </div>
-  <!-- social icon -->
-  <ul class="list-unstyled ml-5 mt-5 mbposition-relative zindex-1">
-    <li class="mb-3"><a class="text-white" href="https://www.instagram.com/ownleadr/" target="_blank"><i class="ti-instagram social-icon-color"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="#"><i class="ti-facebook social-icon-color"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="https://www.linkedin.com/company/34630684/" target="_blank"><i class="ti-linkedin social-icon-color"></i></a></li>
-  </ul>
-  <!-- /social icon -->
-</section>
-<!-- /hero area -->
-
-<!-- problematic -->
-<section class="section position-relative">
-  <div class="container mt-5">
-    <div class="text-center testimonial-content">
-      <p class="text-problematic-title"><strong>22</strong>%</p>
-      <p class="text-problematic mb-4 citation-font">Le nombre de français affirmant avoir une vie choisie dans laquelle ils sont pleinement épanouis.</p>
-      <img class="img-fluid mb-4 d-inline-block" src="images/clients-logo/logo-montaigne.png" alt="montaigne-image">
-    </div>
-  </div>
-  <div class="container mt-5">
-    <div class="text-center testimonial-content">
-      <p class="text-problematic-title"><strong>22</strong>%</p>
-      <p class="text-problematic mb-4 citation-font">Le nombre de français affirmant avoir une vie choisie dans laquelle ils sont pleinement épanouis.</p>
-      <img class="img-fluid mb-4 d-inline-block" src="images/clients-logo/logo-montaigne.png" alt="montaigne-image">
-    </div>
-  </div>
-  <div class="container mt-5">
-    <div class="text-center testimonial-content">
-      <p class="text-problematic-title"><strong>22</strong>%</p>
-      <p class="text-problematic mb-4 citation-font">Le nombre de français affirmant avoir une vie choisie dans laquelle ils sont pleinement épanouis.</p>
-      <img class="img-fluid mb-4 d-inline-block" src="images/clients-logo/logo-montaigne.png" alt="montaigne-image">
-    </div>
-  </div>
-  <div class="container mt-5">
-    <div class="text-center testimonial-content">
-      <p class="text-problematic mb-4 citation-font">Vous manquez de confiance en vous ?</p>
-      <p class="text-problematic mb-4 citation-font">Vous manquez de motivation ?</p>
-      <p class="text-problematic mb-4 citation-font">Vous avez un manque d'organisation ?</p>
-    </div>
-  </div>
-  <!-- bg image -->
-  <!--
-  <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
-</section>
--->
-  <!-- /education -->
-
-<!-- skills -->
 <!--
-<section class="section">
-  <div class="container">
+<section id="about">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Skills</h2>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
-            <div class="wave" data-progress="90%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">Web Design (90%)</h4>
-          </div>
+        <div class="three columns">
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
         </div>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
-            <div class="wave" data-progress="60%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">Logo Design (60%)</h4>
-          </div>
+        <div class="nine columns main-col">
+            <h2>À propos de moi</h2>
+            <p>Je m'appelle Nicolae et je suis passionnée par le milieu des nouvelles technologies depuis mon plus jeune âge,
+                j'ai acquis durant toute ces années, de façon autodidacte, plusieurs connaissances variée dans ce domaine.
+                Je dispose d'aujourd'hui de plus de 5 ans d'expérience dans le domaine du développement informatique,
+                avec une préférence sur les technologies de l'intelligence artificielle.
+                <br><br>
+                Pour le moment, je souhaiterais orienter l'acquisition de mes connaissances et mes recherches dans les domaines du machine learning et de la big data.
+            </p>
+            <div class="row">
+                <div class="columns contact-details">
+                    <h2>Contact</h2>
+                    <p class="address">
+                        <span>Nicolae Dogotaru</span><br>
+                        <span>(+33) 7 81 81 90 06</span><br>
+                        <span>nicolae.dogotaru@gmail.com</span>
+                    </p>
+                </div>
+                <div class="columns download">
+                    <p>
+                        <a href="#" class="button"><i class="fa fa-download"></i>Télécharger le CV</a>
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
-            <div class="wave" data-progress="80%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">After Effects (80%)</h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
-            <div class="wave" data-progress="70%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">Web App (70%)</h4>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 -->
-<!-- /skills -->
-
-<!-- experience -->
-<!--
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Experience</h2>
-      </div>
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-1.png" alt="icon">
-        <p class="mb-0">Jan 2007 - Feb 2009</p>
-        <h4>Junior UX Designer</h4>
-        <h6 class="text-light">WEBEX</h6>
-      </div>
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-2.png" alt="icon">
-        <p class="mb-0">Mar 2009 - Aug 2014</p>
-        <h4>UX & UI Designer</h4>
-        <h6 class="text-light">AUGMEDIX</h6>
-      </div>
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-3.png" alt="icon">
-        <p class="mb-0">Sep 2014 - Present</p>
-        <h4>Senior UI Designer</h4>
-        <h6 class="text-light">THEMEFISHER</h6>
-      </div>
+<section id="resume">
+    <div class="row education">
+        <div class="three columns header-col">
+            <h1><span>Études</span></h1>
+        </div>
+        <div class="nine columns main-col">
+            <div class="row item">
+                <div class="twelve columns">
+                    <h3>ETNA - Ivry-Sur-Seine</h3>
+                    <p class="info">APAE Promo 2023<span>&bull;</span> <em class="date">Septembre 2019 - À ce jour</em></p>
+                    <p>
+                        École d’informatique proposant une année de préparation intégrée et, dès la deuxième année,
+                        une alternance calquée sur le mode de vie des entreprises. L'accent est mis sur l'enseignement
+                        à distance, permettant une plus grande mobilité et une meilleure flexibilité des étudiants.
+                        Il s'agit de la première "cyberschool" de France structurée autour de l'alternance.
+                    </p>
+                </div>
+            </div>
+            <div class="row item">
+                <div class="twelve columns">
+                    <h3>Lycée Léonard de Vinci – St Witz</h3>
+                    <p class="info">Diplômée du Baccalauréat Scientifique – SVT <span>&bull;</span> <em class="date">Juin 2018</em></p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
+    <div class="row work">
+        <div class="three columns header-col">
+            <h1><span>Expériences</span></h1>
+        </div>
+        <div class="nine columns main-col">
+            <div class="row item">
+                <div class="twelve columns">
+                    <h3>Piscine WEB</h3>
+                    <p class="info">HTML <span>&bull;</span> CSS <span>&bull;</span> MYSQL <span>&bull;</span> PHP <span>&bull;</span><em class="date">1 Semaine - Octobre 2019</em></p>
+                    <p>
+                        - Portfolio CV : Site Web HTML CSS<br>
+                        - Admin Panel PHP / MySQL
+                    </p>
+                </div>
+            </div>
+            <div class="row item">
+                <div class="twelve columns">
+                    <h3>Piscine C</h3>
+                    <p class="info">C <span>&bull;</span> <em class="date">2 Semaines - Septembre / Octobre 2019</em></p>
+                    <p>
+                        - Programmation en C à la norme C de l'ETNA<br>
+                        - Rush d'un programme générant un parallélépipède en C<br>
+                        - Projet portant sur le stockage d'un couple de clé et de valeur en C
+                    </p>
+                </div>
+            </div>
+            <div class="row item">
+                <div class="twelve columns">
+                    <h3>Piscine UNIX</h3>
+                    <p class="info">BASH <span>&bull;</span> <em class="date">1 Semaine - Septembre 2019</em></p>
+                    <p>
+                        - Connaissances d'utilisation d'une distribution à noyau linux<br>
+                        - Connaissances basique de Git et du provider GitLab<br>
+                        - Projet portant sur la création d'un RPG en BASH sur le thème de Zelda
+                    </p>
+                </div>
+            </div>
+            <div class="row item">
+                <div class="twelve columns">
+                    <h3>Piscine 42</h3>
+                    <p class="info">BASH <span>&bull;</span> C <span>&bull;</span> <em class="date">1 mois - Août 2015</em></p>
+                    <p>
+                        - Utilisation basique SHELL BASH sur un terminal<br>
+                        - Programmation basique en langage C<br>
+                        - Travail en groupe, sous forme de projet
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row skill">
+        <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+        </div>
+        <div class="nine columns main-col">
+            <div class="bars">
+                <ul class="skills">
+                    <li><span class="bar-expand bash"></span><em>BASH <span>&bull;</span> <span class="pourcentageSkill">60 %</span></em></li>
+                    <li><span class="bar-expand clanguage"></span><em>C <span>&bull;</span> <span class="pourcentageSkill">50 %</span></em></li>
+                    <li><span class="bar-expand html5"></span><em>HTML5 <span>&bull;</span> <span class="pourcentageSkill">70 %</span></em></li>
+                    <li><span class="bar-expand css"></span><em>CSS <span>&bull;</span> <span class="pourcentageSkill">60 %</span></em></li>
+                    <li><span class="bar-expand mysql"></span><em>MYSQL <span>&bull;</span> <span class="pourcentageSkill">40 %</span></em></li>
+                    <li><span class="bar-expand php"></span><em>PHP <span>&bull;</span> <span class="pourcentageSkill">30 %</span></em></li>
+                    <li><span class="bar-expand photoshop"></span><em>Photoshop <span>&bull;</span> <span class="pourcentageSkill">95 %</span></em></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
--->
-<!-- ./experience -->
-
-<!-- education -->
-<section class="section position-relative">
-  <div class="container">
+<section id="portfolio">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Connaissance</h2>
-      </div>
-    </div>
-    <div class="flex-column">
-      <div class="row align-items-center mobile-info-view">
-        <img class="w-25 h-25 photo-info img-fluid" src="images/pictogrammes/LearningPicto.png" />
-        <div class="w-50">
-          <p class="information-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <div class="twelve columns collapsed">
+            <h1>Découvrer certains de mes projets</h1>
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+                <div class="columns portfolio-item">
+                    <div class="item-wrap">
+                        <a href="#modal-01" title="">
+                            <img alt="" src="images/portfolio/coffee.jpg">
+                            <div class="overlay">
+                                <div class="portfolio-item-meta">
+                                    <h5>my_parallelepiped</h5>
+                                    <p>Rush - Piscine C</p>
+                                </div>
+                            </div>
+                            <div class="link-icon"><i class="icon-plus"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <!--
+                 <div class="columns portfolio-item">
+                   <div class="item-wrap">
+                      <a href="#modal-02" title="">
+                         <img alt="" src="images/portfolio/console.jpg">
+                         <div class="overlay">
+                            <div class="portfolio-item-meta">
+                                     <h5>TITLE</h5>
+                               <p>TEXT</p>
+                                  </div>
+                         </div>
+                         <div class="link-icon"><i class="icon-plus"></i></div>
+                      </a>
+                   </div>
+                   </div>
+                <div class="columns portfolio-item">
+                   <div class="item-wrap">
+                      <a href="#modal-03" title="">
+                         <img alt="" src="images/portfolio/judah.jpg">
+                         <div class="overlay">
+                            <div class="portfolio-item-meta">
+                                <h5>TITLE</h5>
+                                <p>TEXT</p>
+                                  </div>
+                         </div>
+                         <div class="link-icon"><i class="icon-plus"></i></div>
+                      </a>
+                   </div>
+                   </div>
+                <div class="columns portfolio-item">
+                   <div class="item-wrap">
+                      <a href="#modal-04" title="">
+                         <img alt="" src="images/portfolio/into-the-light.jpg">
+                         <div class="overlay">
+                            <div class="portfolio-item-meta">
+                                <h5>TITLE</h5>
+                                <p>TEXT</p>
+                                  </div>
+                         </div>
+                         <div class="link-icon"><i class="icon-plus"></i></div>
+                      </a>
+                   </div>
+                   </div>
+                <div class="columns portfolio-item">
+                   <div class="item-wrap">
+                      <a href="#modal-05" title="">
+                         <img alt="" src="images/portfolio/farmerboy.jpg">
+                         <div class="overlay">
+                            <div class="portfolio-item-meta">
+                                <h5>TITLE</h5>
+                                <p>TEXT</p>
+                                  </div>
+                         </div>
+                         <div class="link-icon"><i class="icon-plus"></i></div>
+                      </a>
+                   </div>
+                   </div>
+                <div class="columns portfolio-item">
+                   <div class="item-wrap">
+                      <a href="#modal-06" title="">
+                         <img alt="" src="images/portfolio/girl.jpg">
+                         <div class="overlay">
+                            <div class="portfolio-item-meta">
+                                <h5>TITLE</h5>
+                                <p>TEXT</p>
+                                  </div>
+                         </div>
+                         <div class="link-icon"><i class="icon-plus"></i></div>
+                      </a>
+
+                   </div>
+                   </div>
+                <div class="columns portfolio-item">
+                   <div class="item-wrap">
+                      <a href="#modal-07" title="">
+                         <img alt="" src="images/portfolio/origami.jpg">
+                         <div class="overlay">
+                            <div class="portfolio-item-meta">
+                                <h5>TITLE</h5>
+                                <p>TEXT</p>
+                                  </div>
+                         </div>
+                         <div class="link-icon"><i class="icon-plus"></i></div>
+                      </a>
+
+                   </div>
+                   </div>
+                <div class="columns portfolio-item">
+                   <div class="item-wrap">
+
+                      <a href="#modal-08" title="">
+                         <img alt="" src="images/portfolio/retrocam.jpg">
+                         <div class="overlay">
+                            <div class="portfolio-item-meta">
+                                <h5>TITLE</h5>
+                                <p>TEXT</p>
+                                  </div>
+                         </div>
+                         <div class="link-icon"><i class="icon-plus"></i></div>
+                      </a>
+                       -->
+            </div>
         </div>
-      </div>
     </div>
-    <div class="flex-row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Performance</h2>
-      </div>
     </div>
-    <div class="row align-items-center flex-row-reverse mobile-info-view">
-      <img class="w-25 h-25 photo-info" src="images/pictogrammes/PerformancePicto.png" />
-      <div class="w-50">
-        <p class="information-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-      </div>
+    <div id="modal-01" class="popup-modal mfp-hide">
+        <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+        <div class="description-box">
+            <h4>my_parallelepiped</h4>
+            <p>my_parallelepiped est une fonction prenant respectivement 3 int nommée x, y et z. Elle affiche
+                en sortie un parallelepipède de x longueur, y hauteur et z de profondeur.</p>
+            <span class="categories"><i class="fa fa-cog"></i>C Language</span>
+        </div>
+        <div class="link-box">
+            <a href="https://github.com/ndogota/my_parallelepiped" target="_blank">Github</a>
+            <a class="popup-modal-dismiss">Close</a>
+        </div>
     </div>
-    <div class="flex-row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Évolution</h2>
-      </div>
+    <div id="modal-02" class="popup-modal mfp-hide">
+        <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+        <div class="description-box">
+            <h4>TITLE</h4>
+            <p>TEXT</p>
+            <span class="categories"><i class="fa fa-cog"></i>Branding, Web Development</span>
+        </div>
+        <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+            <a class="popup-modal-dismiss">Close</a>
+        </div>
     </div>
-    <div class="row align-items-center mobile-info-view">
-      <img class="w-25 h-25 photo-info" src="images/pictogrammes/PerformancePicto.png" />
-      <div class="w-50">
-        <p class="information-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-      </div>
+    <div id="modal-03" class="popup-modal mfp-hide">
+        <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+        <div class="description-box">
+            <h4>TITLE</h4>
+            <p>TEXT</p>
+            <span class="categories"><i class="fa fa-cog"></i>Branding</span>
+        </div>
+        <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+            <a class="popup-modal-dismiss">Close</a>
+        </div>
     </div>
-  </div>
-  <!-- bg image -->
-  <!--
-  <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+    <div id="modal-04" class="popup-modal mfp-hide">
+        <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+        <div class="description-box">
+            <h4>TITLE</h4>
+            <p>TEXT</p>
+            <span class="categories"><i class="fa fa-cog"></i>Photography</span>
+        </div>
+        <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+            <a class="popup-modal-dismiss">Close</a>
+        </div>
+    </div>
+    <div id="modal-05" class="popup-modal mfp-hide">
+        <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+        <div class="description-box">
+            <h4>TITLE</h4>
+            <p>TEXT</p>
+            <span class="categories"><i class="fa fa-cog"></i>Branding, Webdesign</span>
+        </div>
+        <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+            <a class="popup-modal-dismiss">Close</a>
+        </div>
+    </div>
+    <div id="modal-06" class="popup-modal mfp-hide">
+        <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+        <div class="description-box">
+            <h4>TITLE</h4>
+            <p>TEXT</p>
+            <span class="categories"><i class="fa fa-cog"></i>Photography</span>
+        </div>
+        <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+            <a class="popup-modal-dismiss">Close</a>
+        </div>
+    </div>
+    <div id="modal-07" class="popup-modal mfp-hide">
+        <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+        <div class="description-box">
+            <h4>TITLE</h4>
+            <p>TEXT</p>
+            <span class="categories"><i class="fa fa-cog"></i>Branding, Illustration</span>
+        </div>
+        <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+            <a class="popup-modal-dismiss">Close</a>
+        </div>
+    </div>
+    <div id="modal-08" class="popup-modal mfp-hide">
+        <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+        <div class="description-box">
+            <h4>TITLE</h4>
+            <p>TEXT</p>
+            <span class="categories"><i class="fa fa-cog"></i>Webdesign, Photography</span>
+        </div>
+        <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+            <a class="popup-modal-dismiss">Close</a>
+        </div>
+    </div>
+    </div>
 </section>
--->
-  <!-- /education -->
-
-  <!-- citations -->
-  <section class="section bg-primary position-relative testimonial-bg-shapes">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title text-white mb-5">Citations</h2>
+<section id="contact">
+    <div class="row section-head">
+        <div class="two columns header-col">
+            <h1><span>Besoin de mes services ?</span></h1>
         </div>
-        <div class="col-lg-10 mx-auto testimonial-slider">
-          <!-- slider-item -->
-          <div class="text-center testimonial-content">
-            <!-- <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i> -->
-            <p class="text-white mb-4 citation-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit
-              in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
-                 alt="client-image">
-            <h4 class="text-white">Jesica Gomez</h4>
-            <h6 class="text-light mb-4">CEO, Funder</h6>
-          </div>
-          <!-- slider-item -->
-          <div class="text-center testimonial-content">
-            <p class="text-white mb-4 citation-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
-                ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in
-              voluptate velit
-              esse cillum dolore eu fugiat nulla pariatur.</p>
-            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
-                 alt="client-image">
-            <h4 class="text-white">Jesica Gomez</h4>
-            <h6 class="text-light mb-4">CEO, Funder</h6>
-          </div>
-          <!-- slider-item -->
-          <div class="text-center testimonial-content">
-            <p class="text-white mb-4 citation-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
-                ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in
-              voluptate velit
-              esse cillum dolore eu fugiat nulla pariatur.</p>
-            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
-                 alt="client-image">
-            <h4 class="text-white">Jesica Gomez</h4>
-            <h6 class="text-light mb-4">CEO, Funder</h6>
-          </div>
+        <div class="ten columns">
+            <p class="lead">Contactez moi !<br>Je tiendrais de vous répondre en moins de 24 heures.
+            </p>
         </div>
-      </div>
     </div>
-    <!-- bg shapes -->
-    <img src="images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
-    <img src="images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
-    <img src="images/illustrations/leaf-orange.png" alt="bg-shape" class="img-fluid bg-shape-2">
-    <img src="images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
-    <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
-    <img src="images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-5">
-  </section>
-  <!-- /citations -->
-
-
-  <!-- services -->
-  <section id="services" class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">Nos solutions</h2>
-        </div>
-        <div class="col-md-4 mb-4 mb-md-0">
-          <div class="card active-bg-secondary hover-shadow shadow">
-            <div class="card-body text-center px-4 py-5">
-              <i class="ti-palette icon mb-5 d-inline-block"></i>
-              <h4 class="mb-4">Formation</h4>
-              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
+    <div class="row">
+        <div class="eight columns">
+            <form action="" method="post" id="contactForm" name="contactForm">
+                <fieldset>
+                    <div>
+                        <label for="contactName">Nom <span class="required">*</span></label>
+                        <input type="text" value="" size="35" id="contactName" name="contactName">
+                    </div>
+                    <div>
+                        <label for="contactEmail">Email <span class="required">*</span></label>
+                        <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                    </div>
+                    <div>
+                        <label for="contactSubject">Sujet </label>
+                        <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                    </div>
+                    <div>
+                        <label for="contactMessage">Message <span class="required">*</span></label>
+                        <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                    </div>
+                    <div>
+                        <button class="submit">Envoyer</button>
+                        <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                    </div>
+                </fieldset>
+            </form>
+            <div id="message-warning"> Error boy</div>
+            <div id="message-success">
+                <i class="fa fa-check"></i>Votre message à était envoyer, Merci !<br>
             </div>
-          </div>
         </div>
-        <div class="col-md-4 mb-4 mb-md-0">
-          <div class="card active-bg-primary hover-shadow shadow">
-            <div class="card-body text-center px-4 py-5">
-              <i class="ti-vector icon mb-5 d-inline-block"></i>
-              <h4 class="mb-4">Accompagnement</h4>
-              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
+        <aside class="four columns footer-widgets">
+            <div class="widget widget_contact">
+                <h4>Contact</h4>
+                <p class="address">
+                    Nicolae Dogotaru<br>
+                    nicolae.dogotaru@gmail.com<br>
+                    <span>(+33) 07 81 81 90 06</span>
+                </p>
             </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4 mb-md-0">
-          <div class="card active-bg-secondary hover-shadow shadow">
-            <div class="card-body text-center px-4 py-5">
-              <i class="ti-panel icon mb-5 d-inline-block"></i>
-              <h4 class="mb-4">Outils</h4>
-              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+        </aside>
     </div>
-  </section>
-  <!-- /services -->
-
-  <section id="methode-3C" class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">Méthode 3C</h2>
+</section>
+<footer>
+    <div class="row">
+        <div class="twelve columns">
+            <ul class="social-links">
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>@ 2019 Nicolae Dogotaru</li>
+            </ul>
         </div>
-        <div class="col-md-5 mb-4 mb-md-0">
-          <img src="images/pictogrammes/3CPicto.png" class="image-methode-3C"/>
-        </div>
-        <div class="col-md-6 mb-4 mb-md-0">
-          <p class="text-methode-3C">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <form>
-            <input type="email" name="name" class="question" id="nme" required autocomplete="off" />
-            <label for="nme"><span>Quel est votre Email?</span></label>
-            <input type="submit" value="Recevoir!" id="btn-methode-3C" class="btn btn-xs btn-primary btn-discover"/>
-          </form>
-          <div class="container partner-div">
-            <div class="row mt-2">
-              <a href="https://www.mentorgoal.com/" target="_blank"><img class="img-fluid mr-3 mt-2" src="images/clients-logo/mentor-goal-logo.png" alt="logo-mentorgoal" /></a>
-              <a href="https://etna.io/" target="_blank"><img class="img-fluid mr-3 mt-2" src="images/clients-logo/etna-logo.png" alt="logo-etna" /></a>
-              <a href="https://www.mon-coach-pro.fr/" target="_blank"><img class="img-fluid mr-3 mt-2" src="images/clients-logo/mon-coach-pro-logo.png" alt="logo-mon-coach-pro" /></a>
-              <a href="https://www.creer-sa-marque.fr/" target="_blank"><img class="img-fluid mr-3 mt-2" src="images/clients-logo/creer-sa-marque-logo.png" alt="logo-creer-sa-marque" /></a>
-            </div>
-          </div>
-        </div>
-      </div>
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
     </div>
-  </section>
+</footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-  <!-- portfolio -->
-  <!--
-  <section id="portfolio" class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">Portfolio</h2>
-        </div>
-      </div>
-      <div class="row shuffle-wrapper">
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="images/portfolio/item-1.png" alt="portfolio-image" class="img-fluid rounded w-100">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="images/portfolio/item-2.png" alt="portfolio-image" class="img-fluid rounded w-100">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="images/portfolio/item-3.png" alt="portfolio-image" class="img-fluid rounded w-100">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="images/portfolio/item-4.png" alt="portfolio-image" class="img-fluid rounded w-100">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="images/portfolio/item-5.png" alt="portfolio-image" class="img-fluid rounded w-100">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  -->
-  <!-- /portfolio -->
-
-  <!-- blog -->
-  <section id="blog" class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">Événements</h2>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <article class="card shadow">
-            <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb">
-            <div class="card-body">
-              <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
-              </h4>
-              <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et
-                dolore magna aliqua.</p>
-              <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
-            </div>
-          </article>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <article class="card shadow">
-            <img class="rounded card-img-top" src="images/blog/post-4.jpg" alt="post-thumb">
-            <div class="card-body">
-              <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
-              </h4>
-              <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et
-                dolore magna aliqua.</p>
-              <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
-            </div>
-          </article>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <article class="card shadow">
-            <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb">
-            <div class="card-body">
-              <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
-              </h4>
-              <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et
-                dolore magna aliqua.</p>
-              <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /blog -->
-
-  <!-- contact -->
-  <!-- Début de widget en ligne Calendly -->
-  <section id="calendly" class="section">
-    <div class="col-12 text-center">
-      <p class="text-light question-coaching">Vous avez des questions/besoins particulier? Reservez votre session avec Guillaume</p>
-    </div>
-    <div class="calendly-inline-widget" data-url="https://calendly.com/guillaumecote" style="min-width:320px;height:830px;"></div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-  </section>
-  <!-- Fin de widget en ligne Calendly -->
-  <!-- /contact -->
-
-  <!-- footer -->
-  <footer class="bg-dark footer-section">
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h5 class="text-light">Email</h5>
-            <h5 class="text-white paragraph-lg">support@ownleadr.com</h5>
-          </div>
-          <div class="col-md-4">
-            <h5 class="text-light">Phone</h5>
-            <h5 class="text-white paragraph-lg">+42 24 42 24</h5>
-          </div>
-          <div class="col-md-4">
-            <h5 class="text-light">Address</h5>
-            <h5 class="text-white paragraph-lg">34 rue Beauvau, Marseille, France</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="border-top text-center border-dark py-5">
-      <h5 class="mb-0 text-light">Tous droits réservés ©<script>
-        var CurrentYear = new Date().getFullYear()
-        document.write(CurrentYear)
-      </script> OwnLeadr.</h5>
-    </div>
-  </footer>
-  <!-- /footer -->
-
-  <!-- jQuery -->
-  <script src="plugins/jQuery/jquery.min.js"></script>
-
-  <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-  </script>
-
-  <!-- Bootstrap JS -->
-  <script src="plugins/bootstrap/bootstrap.min.js"></script>
-  <!-- slick slider -->
-  <script src="plugins/slick/slick.min.js"></script>
-  <!-- filter -->
-  <script src="plugins/shuffle/shuffle.min.js"></script>
-
-  <!-- Main Script -->
-  <script src="js/script.js"></script>
-
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/waypoints.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/magnific-popup.js"></script>
+<script src="js/init.js"></script>
 </body>
 </html>
