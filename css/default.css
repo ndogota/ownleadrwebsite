@@ -151,7 +151,7 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
+   color: #ffffff;
 	font-family: 'opensans-bold', sans-serif;
    font-weight: normal;
 }
@@ -164,7 +164,12 @@ h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
 .subheader { }
 
-p { margin: 0 0 30px 0; }
+p {
+    margin: 0 0 30px 0;
+    color: #bdbdbd;
+    font-size: 1.2em;
+}
+
 p img { margin: 0; }
 p.lead {
    font: 19px/36px 'opensans-light', sans-serif;
@@ -525,6 +530,12 @@ input[type="button"].full-width {
     font-size: 2em;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* button email receive */
+
+.button-receive {
+    font-size: 1.5em;
 }
 
 /* Fix for odd Mozilla border & padding issues */

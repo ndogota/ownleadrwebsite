@@ -17,7 +17,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #010101; }
+body { background: #111111; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -1033,4 +1033,15 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover {
     background-color: #8d2941;
+}
+
+/* methode 3c */
+
+#method-3c {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+#method-3c-title {
+    font-size: 3em;
 }
