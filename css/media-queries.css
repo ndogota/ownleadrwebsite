@@ -15,6 +15,9 @@
 /* screenwidth less than 900px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
+   /* logo styles */
+
+
 
     /* header styles
    ------------------------------------------------------------------ */
@@ -86,7 +89,7 @@
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 986px) {
 
    /* mobile navigation
    -------------------------------------------------------------------- */
@@ -98,6 +101,11 @@
       position: fixed;
       top: 0;
       right: 0;
+      display: inherit;
+      flex-direction: inherit;
+      justify-content: inherit;
+      padding-top: 2%;
+      padding-bottom: 2%;
    }
    #nav-wrap > a {
 	   width: 48px;
@@ -137,7 +145,7 @@
    /* hide menu panel */
    #nav-wrap ul#nav {
       height: auto;
-      display: none;
+		display: none;
       clear: both;
       width: auto;
       float: right;

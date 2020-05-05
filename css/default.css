@@ -449,7 +449,8 @@ img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
 
 .logo-ownleadr {
-    margin-top: 5px;
+    margin-top: 0.8%;
+    height: 10%;
 }
 
 .image-genius {
