@@ -25,3 +25,7 @@
 .text-responsive {
   font-size: calc(100% + 1vw + 1vh) !important;
 }
+
+.container-problematic, .container-solutions {
+  margin-bottom: 300px;
+}
