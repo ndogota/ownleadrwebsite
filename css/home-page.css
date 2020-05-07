@@ -1,0 +1,23 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../img/background-homepage.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn-discover {
+  background-color: #a2304f !important;
+  border: none !important;
+  font-size: 1.5em !important;
+}
+
+.btn-discover:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-discover:active {
+  background-color: #bd3a5e !important;
+}
