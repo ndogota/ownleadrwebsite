@@ -10,7 +10,7 @@
 .btn-discover {
   background-color: #a2304f !important;
   border: none !important;
-  font-size: 1.5em !important;
+  font-size: calc(50% + 1vw + 1vh) !important;
 }
 
 .btn-discover:focus {
