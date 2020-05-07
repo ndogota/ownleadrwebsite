@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9a607a8-6195-4576-99fa-43e5a193e095" name="Default Changelist" comment="" />
+    <list default="true" id="eceacbed-d130-495a-872d-c859c3db8311" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1bRWuXRBWh0RAEesujlrfUT5XyT" />
+  <component name="ProjectId" id="1bZc6p3AhZ42Irj8LuPVdMEJ48t" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,22 +39,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ndogota\Documents\GitHub\ownleadrwebsite" />
+      <recent name="C:\Users\ndogota\Documents\GitHub\ownleadrwebsite\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ndogota\Documents\GitHub\ownleadrwebsite" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b9a607a8-6195-4576-99fa-43e5a193e095" name="Default Changelist" comment="" />
-      <created>1588595609889</created>
+      <changelist id="eceacbed-d130-495a-872d-c859c3db8311" name="Default Changelist" comment="" />
+      <created>1588842883703</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588595609889</updated>
-      <workItem from="1588595611184" duration="8711000" />
-      <workItem from="1588666590065" duration="6641000" />
-      <workItem from="1588684024150" duration="4374000" />
-      <workItem from="1588712515373" duration="3369000" />
-      <workItem from="1588755841475" duration="4247000" />
-      <workItem from="1588767494621" duration="4102000" />
+      <updated>1588842883703</updated>
+      <workItem from="1588842887174" duration="8113000" />
     </task>
     <servers />
   </component>
@@ -71,18 +75,15 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1386" y="208" width="548" height="582" key="find.popup" timestamp="1588767684365">
+    <state x="-1416" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588849842677">
       <screen x="-1920" y="0" width="1536" height="840" />
     </state>
-    <state x="-1386" y="208" width="548" height="582" key="find.popup/-1920.0.1536.840/0.0.1920.1050@-1920.0.1536.840" timestamp="1588767684365" />
-    <state x="667" y="260" width="585" height="530" key="find.popup/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588668196004" />
-    <state x="-1427" y="194" key="run.anything.popup" timestamp="1588715209145">
+    <state x="-1416" y="219" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.840/0.0.1920.1050@-1920.0.1536.840" timestamp="1588849842677" />
+    <state x="-1421" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588850206221">
       <screen x="-1920" y="0" width="1536" height="840" />
     </state>
-    <state x="-1427" y="194" key="run.anything.popup/-1920.0.1536.840/0.0.1920.1050@-1920.0.1536.840" timestamp="1588715209145" />
-    <state x="616" y="243" key="run.anything.popup/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588671457504" />
+    <state x="-1421" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.840/0.0.1920.1050@-1920.0.1536.840" timestamp="1588850206221" />
   </component>
 </project>
