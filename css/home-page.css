@@ -21,3 +21,7 @@
 .btn-discover:active {
   background-color: #bd3a5e !important;
 }
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh) !important;
+}
