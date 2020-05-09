@@ -14,8 +14,14 @@ h5 {
 
 .text-shadow {
   text-shadow: 2px 2px 4px #000000;
-  background-color: rgba(0, 0, 0, 0.47);
-  border-radius: 10px;
+}
+
+@media screen and (max-width: 990px){
+  .text-shadow {
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 10px;
+  }
 }
 
 /* zoom image */
@@ -33,4 +39,19 @@ h5 {
 
 .container-quotes {
   margin-bottom: 100px !important;
+}
+
+/* remove ugly boostrap effect button */
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("../img/utils/logo-mobile-nav.png") !important;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
