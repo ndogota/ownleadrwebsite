@@ -10,6 +10,20 @@ h5 {
   color: #a2304f !important;
 }
 
+/* button */
+
+.btn-receive {
+  background-color: #a2304f !important;
+  box-shadow: none !important;
+  color: white !important;
+  font-size: 1.3em !important;
+}
+
+.btn-receive:active {
+  background-color: #d03c64 !important;
+  box-shadow: none !important;
+}
+
 /* text */
 
 .text-shadow {
@@ -54,4 +68,24 @@ h5 {
 .navbar-toggler:focus, .navbar-toggler:active {
   outline: none !important;
   box-shadow: none !important;
+}
+
+/* input 3c methode */
+
+#email-methode-3C {
+  background-color: transparent;
+  outline: none !important;
+  box-shadow: none !important;
+  border: solid 1px white;
+  color: white;
+}
+
+#email-methode-3C:focus {
+  border: solid 1px #a2304f;
+}
+
+/* color */
+
+.secondary-color {
+  color: #a2304f;
 }
