@@ -18,6 +18,9 @@
   <!-- home-page css -->
   <link rel="stylesheet" href="css/home-page.css">
 
+  <!-- layouts css -->
+  <link rel="stylesheet" href="css/layouts.css">
+
   <!-- bootstrap 4.4 -->
   <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
 
@@ -30,7 +33,7 @@
 <![endif]-->
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm pb-3 pt-3">
+<nav class="navbar navbar-expand-lg navbar-dark bg-blur fixed-top shadow-sm pb-3 pt-3">
   <div class="container">
     <a class="navbar-brand" href="#">
       <img src="img/logo-ownleadr.png">
@@ -44,19 +47,16 @@
           <a class="nav-link" href="#">Acceuil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#solutions">Nos Solutions</a>
+          <a class="nav-link" href="#solutions">Nos solutions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Méthode 3C</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Événements</a>
+          <a class="nav-link" href="#methode-3c">Méthode 3C</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#calendly">Coaching</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#footer">Contact</a>
         </li>
       </ul>
     </div>
@@ -76,114 +76,117 @@
   </div>
 </header>
 
-<div class="container container-problematic text-white">
-  <div class="row m-3">
-    <h4 class="text-cible">Une <span class="secondary-color">majorité</span> de personne n'est pas
-      pleinement <span class="secondary-color">épanouie</span> dans sa vie et n'a pas
-      <span class="secondary-color">confiance</span> en elle mais la totalité a le
-      <span class="secondary-color">potentiel</span> pour réaliser ses rêves</h4>
+<!-- problematic -->
+<section id="problematics">
+  <div class="container container-problematic text-white">
+    <div class="row m-3">
+      <h4 class="text-cible">Une <span class="secondary-color">majorité</span> de personne n'est pas
+        pleinement <span class="secondary-color">épanouie</span> dans sa vie et n'a pas
+        <span class="secondary-color">confiance</span> en elle mais la totalité a le
+        <span class="secondary-color">potentiel</span> pour réaliser ses rêves</h4>
+    </div>
+    <h4 class="text-center font-weight-bold mb-5 mt-5">Faites vous partie des ... ?</h4>
+    <div class="row mb-5">
+      <div class="col-sm">
+        <p class="text-center display-1 zoom">1<span class="important-statistic">/</span>2</p>
+        <h5 class="text-grey text-center">
+          Estime ne pas avoir une bonne <span class="secondary-color">estime</span> de soi
+        </h5>
+      </div>
+      <div class="col-sm">
+        <p class="text-center display-1 zoom">22<span class="important-statistic">%</span></p>
+        <h5 class="text-grey text-center">
+          Des français affirment avoir une vie choisie dans laquelle ils sont pleinement <span class="secondary-color">épanouis</span>
+        </h5>
+      </div>
+      <div class="col-sm">
+        <p class="text-center display-1 zoom">53<span class="important-statistic">%</span></p>
+        <h5 class="text-grey text-center">
+          des Français sont inquiets pour leur <span class="secondary-color">avenir</span> personnel
+        </h5>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-sm">
+        <p class="text-center display-1 zoom">68<span class="important-statistic">%</span></p>
+        <h5 class="text-grey text-center">
+          <span class="secondary-color">Doutent</span> d'être intelligent
+        </h5>
+      </div>
+      <div class="col-sm">
+        <p class="text-center display-1 zoom">78<span class="important-statistic">%</span></p>
+        <h5 class="text-grey text-center">
+          Vie une vie pas <span class="secondary-color">choisie</span>
+        </h5>
+      </div>
+      <div class="col-sm">
+        <p class="text-center display-1 zoom">99<span class="important-statistic">%</span></p>
+        <h5 class="text-grey text-center">
+          Ont des <span class="secondary-color">rêves</span> à réaliser
+        </h5>
+      </div>
+    </div>
   </div>
-  <h4 class="text-center font-weight-bold mb-5 mt-5">Faites vous partie des ... ?</h4>
-  <div class="row mb-5">
-    <div class="col-sm">
-      <p class="text-center display-1 zoom">1<span class="important-statistic">/</span>2</p>
-      <h5 class="text-grey text-center">
-        Estime ne pas avoir une bonne <span class="secondary-color">estime</span> de soi
-      </h5>
-    </div>
-    <div class="col-sm">
-      <p class="text-center display-1 zoom">22<span class="important-statistic">%</span></p>
-      <h5 class="text-grey text-center">
-        Des français affirment avoir une vie choisie dans laquelle ils sont pleinement <span class="secondary-color">épanouis</span>
-      </h5>
-    </div>
-    <div class="col-sm">
-      <p class="text-center display-1 zoom">53<span class="important-statistic">%</span></p>
-      <h5 class="text-grey text-center">
-        des Français sont inquiets pour leur <span class="secondary-color">avenir</span> personnel
-      </h5>
-    </div>
-  </div>
-  <div class="row mb-5">
-    <div class="col-sm">
-      <p class="text-center display-1 zoom">68<span class="important-statistic">%</span></p>
-      <h5 class="text-grey text-center">
-        <span class="secondary-color">Doutent</span> d'être intelligent
-      </h5>
-    </div>
-    <div class="col-sm">
-      <p class="text-center display-1 zoom">78<span class="important-statistic">%</span></p>
-      <h5 class="text-grey text-center">
-        Vie une vie pas <span class="secondary-color">choisie</span>
-      </h5>
-    </div>
-    <div class="col-sm">
-      <p class="text-center display-1 zoom">99<span class="important-statistic">%</span></p>
-      <h5 class="text-grey text-center">
-        Ont des <span class="secondary-color">rêves</span> à réaliser
-      </h5>
-    </div>
-  </div>
-</div>
+</section>
 
-<div class="container container-citation text-white">
-</div>
-
-<div class="container container-solutions text-white">
-  <div class="row">
-    <h4 class="text-white text-responsive m-4">Devenez votre propre <span class="secondary-color">leadr</span>.</h4>
+<!-- solutions -->
+<section id="solutions">
+  <div class="container container-solutions text-white">
+    <div class="row">
+      <h4 class="text-white text-responsive m-4">Devenez votre propre <span class="secondary-color">leadr</span>.</h4>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <img class="img-fluid zoom" src="img/pictogrammes/LearningPicto.png" />
+        <h3 class="text-center text-uppercase mb-4">Connaissance de soi</h3>
+        <ul class="text-grey">
+          <li>Apprenez à vous connaître et exploitez les atouts de votre personnalité pour vous réaliser</li>
+          <li>Développez votre vision et votre désir d'apprendre</li>
+          <li>Comprennez les mécanismes de la motivation</li>
+          <li>Apprenez à programmer votre subconscient</li>
+          <li>Apprenez à gérer vos émotions négatives (stress, anxiété)</li>
+          <li>Découvrez comment vous débarasser de vos peurs</li>
+        </ul>
+      </div>
+      <div class="col-sm">
+        <img class="img-fluid zoom" src="img/pictogrammes/PerformancePicto.png" />
+        <h3 class="text-center text-uppercase mb-4">Performance</h3>
+        <ul class="text-grey">
+          <li>Apprenez à vous conditionner à l'atteinte de vos objectifs</li>
+          <li>Apprenez à vous organiser et gérer votre temps</li>
+          <li>Supprimez la procrastination</li>
+          <li>Stimulez votre motivation</li>
+          <li>Augmentez votre productivité et votre efficacité</li>
+          <li>Développez des nouvelles habitudes productives</li>
+          <li>Développez votre état d'esprit et repoussez vos limites</li>
+        </ul>
+      </div>
+      <div class="col-sm">
+        <img class="img-fluid zoom" src="img/pictogrammes/SuiviPicto.png" />
+        <h3 class="text-center text-uppercase mb-4">Croissance</h3>
+        <ul class="text-grey">
+          <li>Assurez vous une évolution exponentielle</li>
+          <li>Développez votre confiance en vous</li>
+          <li>Réveillez votre potentiel</li>
+          <li>Prenez du plaisir à grandir et évoluer</li>
+          <li>Atteingez vos objectifs les plus ambitieux</li>
+        </ul>
+      </div>
+    </div>
+    <h4 class="text-center m-4 display-4 mission-section">Notre mission</h4>
+    <div class="row m-4">
+      <div class="col-sm">
+        <h4 class="text-grey text-center">Vous <span class="secondary-color">formez</span></h4>
+      </div>
+      <div class="col-sm">
+        <h4 class="text-grey text-center">Vous proposer des <span class="secondary-color">outils</span> pratiques</h4>
+      </div>
+      <div class="col-sm">
+        <h4 class="text-grey text-center">Vous <span class="secondary-color">accompagner</span></h4>
+      </div>
+    </div>
   </div>
-  <div class="row">
-    <div class="col-sm">
-      <img class="img-fluid zoom" src="img/pictogrammes/LearningPicto.png" />
-      <h3 class="text-center text-uppercase mb-4">Connaissance de soi</h3>
-      <ul class="text-grey">
-        <li>Apprenez à vous connaître et exploitez les atouts de votre personnalité pour vous réaliser</li>
-        <li>Développez votre vision et votre désir d'apprendre</li>
-        <li>Comprennez les mécanismes de la motivation</li>
-        <li>Apprenez à programmer votre subconscient</li>
-        <li>Apprenez à gérer vos émotions négatives (stress, anxiété)</li>
-        <li>Découvrez comment vous débarasser de vos peurs</li>
-      </ul>
-    </div>
-    <div class="col-sm">
-      <img class="img-fluid zoom" src="img/pictogrammes/PerformancePicto.png" />
-      <h3 class="text-center text-uppercase mb-4">Performance</h3>
-      <ul class="text-grey">
-        <li>Apprenez à vous conditionner à l'atteinte de vos objectifs</li>
-        <li>Apprenez à vous organiser et gérer votre temps</li>
-        <li>Supprimez la procrastination</li>
-        <li>Stimulez votre motivation</li>
-        <li>Augmentez votre productivité et votre efficacité</li>
-        <li>Développez des nouvelles habitudes productives</li>
-        <li>Développez votre état d'esprit et repoussez vos limites</li>
-      </ul>
-    </div>
-    <div class="col-sm">
-      <img class="img-fluid zoom" src="img/pictogrammes/SuiviPicto.png" />
-      <h3 class="text-center text-uppercase mb-4">Croissance</h3>
-      <ul class="text-grey">
-        <li>Assurez vous une évolution exponentielle</li>
-        <li>Développez votre confiance en vous</li>
-        <li>Réveillez votre potentiel</li>
-        <li>Prenez du plaisir à grandir et évoluer</li>
-        <li>Atteingez vos objectifs les plus ambitieux</li>
-      </ul>
-    </div>
-  </div>
-  <h4 class="text-center m-4 display-4">Notre mission</h4>
-  <div class="row m-4">
-    <div class="col-sm">
-      <h4 class="text-grey text-center">Vous <span class="secondary-color">formez</span></h4>
-    </div>
-    <div class="col-sm">
-      <h4 class="text-grey text-center">Vous proposer des <span class="secondary-color">outils</span> pratiques</h4>
-    </div>
-    <div class="col-sm">
-      <h4 class="text-grey text-center">Vous <span class="secondary-color">accompagner</span></h4>
-    </div>
-  </div>
-</div>
+</section>
 
 <!-- carousel quote -->
 <div id="carouselExampleIndicators" class="carousel container-quotes" data-ride="carousel">
@@ -226,34 +229,36 @@
 </div>
 
 <!-- methode 3c -->
-<div class="container mb-5">
-  <h4 class="text-center text-white">Découvrez <span class="secondary-color">gratuitement</span> les principes clés de la Méthode 3<span class="secondary-color">C</span></h4>
-  <div class="row card-body">
-    <div class="col-sm-4">
-      <img class="img-fluid mb-4" src="img/utils/methode-3c-book.png" />
-    </div>
-    <div class="col-sm text-white mt-3">
-      <h2>Methode 3<span class="secondary-color">C</span></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <div class="form-group mt-4">
-        <input type="email" class="form-control" id="email-methode-3C" aria-describedby="emailHelp" placeholder="Enter email">
+<section id="methode-3c">
+  <div class="container mb-5">
+    <h4 class="text-center text-white">Découvrez <span class="secondary-color">gratuitement</span> les principes clés de la Méthode 3<span class="secondary-color">C</span></h4>
+    <div class="row card-body">
+      <div class="col-sm-4">
+        <img class="img-fluid mb-4" src="img/utils/methode-3c-book.png" />
       </div>
-      <button type="button" class="btn btn-receive font-weight-bold">Recevoir</button>
+      <div class="col-sm text-white mt-3">
+        <h2>Methode 3<span class="secondary-color">C</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="form-group mt-4">
+          <input type="email" class="form-control" id="email-methode-3C" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <button type="button" class="btn btn-receive font-weight-bold">Recevoir</button>
+      </div>
+    </div>
+    <!-- parnter -->
+
+    <h3 class="text-center text-white">Nos partenaires</h3>
+    <div class="row justify-content-md-center partner-image">
+      <a href="https://www.creer-sa-marque.fr/" target="_blank"><img class="img-fluid m-3" src="img/partner/creer-sa-marque-logo.png" /></a>
+      <a href="https://www.mentorgoal.com/" target="_blank"><img class="img-fluid m-3" src="img/partner/mentor-goal-logo.png" /></a>
+      <a href="https://www.mon-coach-pro.fr/" target="_blank"><img class="img-fluid m-3" src="img/partner/mon-coach-pro-logo.png" /></a>
+      <a href="https://etna.io/" target="_blank"><img class="img-fluid m-3" src="img/partner/etna-logo.png" /></a>
     </div>
   </div>
-  <!-- parnter -->
-
-  <h3 class="text-center text-white">Nos partenaires</h3>
-  <div class="row justify-content-md-center partner-image">
-    <a href="https://www.creer-sa-marque.fr/" target="_blank"><img class="img-fluid m-3" src="img/partner/creer-sa-marque-logo.png" /></a>
-    <a href="https://www.mentorgoal.com/" target="_blank"><img class="img-fluid m-3" src="img/partner/mentor-goal-logo.png" /></a>
-    <a href="https://www.mon-coach-pro.fr/" target="_blank"><img class="img-fluid m-3" src="img/partner/mon-coach-pro-logo.png" /></a>
-    <a href="https://etna.io/" target="_blank"><img class="img-fluid m-3" src="img/partner/etna-logo.png" /></a>
-  </div>
-</div>
+</section>
 
 <!-- Début de widget en ligne Calendly -->
 <section id="calendly" class="section">
@@ -267,7 +272,7 @@
 <!-- Fin de widget en ligne Calendly -->
 
 <!-- Footer -->
-<footer class="page-footer font-small blue pt-4  mt-2">
+<footer id="footer" class="page-footer font-small blue pt-4  mt-2">
 
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">

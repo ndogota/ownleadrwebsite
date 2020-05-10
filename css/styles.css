@@ -2,6 +2,11 @@ h5 {
   color: #a2304f !important;
 }
 
+/* smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
 .text-grey {
   color: #797979 !important;
 }
@@ -107,4 +112,9 @@ h5 {
 
 .secondary-color {
   color: #a2304f;
+}
+
+.bg-blur {
+  backdrop-filter: blur(50px);
+  background-color: rgba(0, 0, 0, 0.25);
 }
