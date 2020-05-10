@@ -27,7 +27,7 @@
 }
 
 .text-responsive-question {
-  font-size: calc(50% + 1vw + 1vh) !important;
+  font-size: calc(40% + 1vw + 1vh) !important;
 }
 
 .container-problematic, .container-solutions {
