@@ -7,6 +7,22 @@ html {
   scroll-behavior: smooth;
 }
 
+/* card solutions */
+.card-mission {
+  background-color: #111111;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: -10px -10px 30px 4px rgba(0,0,0,0.05),
+              10px 10px 30px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card-mission:hover {
+  -webkit-box-shadow: 0px 15px 53px -11px rgba(162, 48, 79, 0.1);
+  -moz-box-shadow: 0px 15px 53px -11px rgba(162, 48, 79, 0.1);
+  box-shadow: 0px 15px 53px -11px rgba(162, 48, 79, 0.1);
+}
+
 .text-grey {
   color: #797979 !important;
 }
@@ -41,6 +57,22 @@ html {
     background-color: rgba(0, 0, 0, 0.47);
     border-radius: 10px;
   }
+}
+
+/* list icon solutions */
+
+.list-solutions {
+  list-style: none;
+  padding: 0;
+}
+.item-solution {
+  padding-left: 1.3em;
+}
+.item-solution:before {
+  content: "\2713";
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
 }
 
 /* zoom image */
@@ -112,8 +144,4 @@ html {
 
 .secondary-color {
   color: #a2304f;
-}
-
-.bg-blur {
-  background-color: rgb(12, 12, 12);
 }
