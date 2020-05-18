@@ -4,23 +4,61 @@
   background-color: #0e0e0e;
 }
 
+/* padding of sections */
+#problematics {
+  padding-top: 50px;
+}
+
+#solutions {
+  padding-top: 100px;
+}
+
+.mission-section {
+  padding-top: 100px;
+}
+
+.container-mission {
+  padding-bottom: 120px;
+}
+
+#methode-3c {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 990px) {
+  #solutions {
+    padding-top: 20px;
+  }
+
+  .mission-section {
+    padding-top:  30px;
+  }
+
+  .container-mission {
+    padding-bottom: 50px;
+  }
+}
+
 /* problematic */
 
-#problematics, #solutions, #methode-3c {
+#problematics-layout, .container-leadership, .methode-3c-container {
   background-color: #0e0e0e;
   box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.06) inset;
-  padding-top: 15px;
-  padding-bottom: 20px;
+  border-radius: 15px;
+}
+
+/* card solutions */
+
+.card-mission {
+  background-color: #0e0e0e;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.06) inset;
 }
 
 .methode-3c-container {
   padding-top: 30px;
-}
-
-/* method 3c */
-
-#methode-3c, #calendly, #solutions, #problematics {
-  margin-top: 200px;
 }
 
 /* carousel quote */

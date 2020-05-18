@@ -11,6 +11,7 @@
   background-color: #a2304f !important;
   border: none !important;
   font-size: calc(50% + 1vw + 1vh) !important;
+  color: white !important;
 }
 
 .btn-discover:focus {
