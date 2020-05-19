@@ -10,7 +10,7 @@
 .btn-discover {
   background-color: #a2304f !important;
   border: none !important;
-  font-size: calc(50% + 1vw + 1vh) !important;
+  font-size: calc(40% + 1vw + 1vh) !important;
   color: white !important;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .text-responsive {
-  font-size: calc(40% + 1vw + 1vh) !important;
+  font-size: calc(80% + 1vw + 1vh) !important;
 }
 
 .text-responsive-question {

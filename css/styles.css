@@ -1,3 +1,22 @@
+/*  typography */
+@font-face {
+  font-family: "Helvetica400";
+  src : url("../fonts/Helvetica400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaBold";
+  src : url("../fonts/HelveticaBold.ttf") format("truetype");
+}
+
+body {
+  font-family: "Helvetica400", serif !important;
+}
+
+.container-hero {
+  font-family: "HelveticaBold", serif !important;
+}
+
 h5 {
   color: #a2304f !important;
 }
@@ -75,6 +94,10 @@ h5 {
 
 .container-quotes {
   margin-bottom: 100px !important;
+}
+
+.carousel-content {
+  margin-bottom: 100px;
 }
 
 /* remove ugly boostrap effect button */
