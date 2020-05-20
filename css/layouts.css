@@ -101,3 +101,12 @@ footer ul li{
 .adress , .contact , .social {
   list-style: none;
 }
+
+/* survey */
+
+#survey {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-top: 65px;
+  max-width: 100%;
+}
