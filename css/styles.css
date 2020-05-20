@@ -168,5 +168,5 @@ h4 {
 /* color */
 
 .secondary-color {
-  color: #a2304f;
+  color: #a2304f !important;
 }
