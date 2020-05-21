@@ -27,7 +27,7 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body class="bg-dark">
+<body class="bg-dark" data-spy="scroll" data-target=".navbar" data-offset="50">
 <!--[if IE]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
@@ -43,20 +43,20 @@
     </button>
     <div class="collapse navbar-collapse text-uppercase" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link smoothScroll" href="#container-hero">Accueil</a>
+        <li class="nav-item">
+          <a class="nav-link smoothScroll pl-3 text-white" href="#container-hero">Accueil</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link smoothScroll pl-4" href="#solutions">Nos solutions</a>
+        <li class="nav-item">
+          <a class="nav-link smoothScroll pl-3 text-white" href="#solutions">Nos solutions</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link smoothScroll pl-4" href="#methode-3c">Méthode 3C</a>
+        <li class="nav-item">
+          <a class="nav-link smoothScroll pl-3 text-white" href="#methode-3c">Méthode 3C</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link smoothScroll pl-4" href="#calendly">Coaching</a>
+        <li class="nav-item">
+          <a class="nav-link smoothScroll pl-3 text-white" href="#calendly">Coaching</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link smoothScroll pl-4" href="#survey">Enquête</a>
+        <li class="nav-item">
+          <a class="nav-link smoothScroll pl-3 text-white" href="#survey">Enquête</a>
         </li>
       </ul>
     </div>
@@ -82,31 +82,23 @@
   <div id="problematics-layout" class="container container-problematic text-white">
     <div class="row">
       <div class="col-sm">
-        <p class="text-center display-1 zoom">49<span class="important-statistic">%</span></p>
-        <h5 class="text-grey text-center">
-          Des français qui ne s'accordent pas suffisamment de temps pour eux
-        </h5>
-        <p class="secondary-color text-center mt-4">YouGov</p>
+        <p class="text-center display-2 zoom">49<span class="important-statistic">%</span></p>
+        <h5 class="text-grey text-center">Des français s'accordent peu de temps pour eux-même</h5>
+        <p class="secondary-color text-center mt-3">YouGov</p>
       </div>
       <div class="col-sm">
-        <p class="text-center display-1 zoom">53<span class="important-statistic">%</span></p>
-        <h5 class="text-grey text-center">
-          Des Français qui sont inquiets pour leur avenir personnel
-        </h5>
-        <p class="secondary-color text-center mt-4">Institut Montaigne</p>
+        <p class="text-center display-2 zoom">53<span class="important-statistic">%</span></p>
+        <h5 class="text-grey text-center">Des français sont inquiets pour leur avenir personnel</h5>
+        <p class="secondary-color text-center mt-3">Institut Montaigne</p>
       </div>
       <div class="col-sm">
-        <p class="text-center display-1 zoom">68<span class="important-statistic">%</span></p>
-        <h5 class="text-grey text-center">
-          Doutent d'être intelligent
-        </h5>
-        <p class="secondary-color text-center mt-4">TNS Sofres</p>
+        <p class="text-center display-2 zoom">68<span class="important-statistic">%</span></p>
+        <h5 class="text-grey text-center">Des français doutent d'être suffisamment intelligent</h5>
+        <p class="secondary-color text-center mt-3">TNS Sofres</p>
       </div>
       <div class="col-sm">
-        <p class="text-center display-1 zoom">99<span class="important-statistic">%</span></p>
-        <h5 class="text-grey text-center">
-          Ont des rêves à réaliser
-        </h5>
+        <p class="text-center display-2 zoom">99<span class="important-statistic">%</span></p>
+        <h5 class="text-grey text-center">Des français ont des rêves à réaliser</h5>
       </div>
     </div>
   </div>
@@ -116,10 +108,10 @@
 <!-- solutions -->
 <section id="solutions">
   <div class="container container-solutions text-white">
-    <h4 class="text-white m-4 pt-5 font-weight-bold text-center">Développez votre leadership personnel et devenez <span class="secondary-color">leader</span> de votre vie.</h4>
+    <h4 class="text-white m-4 pt-5 font-weight-bold text-center">Développez votre leadership personnel et devenez <span class="secondary-color">leader</span> de votre vie !</h4>
     <div class="row container-leadership">
       <div class="col-sm pb-3 ml-3">
-        <img class="img-fluid zoom w-75 mx-auto d-block" src="img/pictogrammes/SelfLearningPicto.png" />
+        <img class="img-fluid zoom w-50 mx-auto d-block" src="img/pictogrammes/SelfLearningPicto.png" />
         <h3 class="text-center text-uppercase mb-4">Connaissance</h3>
         <ul class="text-grey list-solutions">
           <li class="item-solution">Découvrez les atouts de votre personnalité</li>
@@ -132,7 +124,7 @@
         </ul>
       </div>
       <div class="col-sm">
-        <img class="img-fluid zoom w-75 mx-auto d-block" src="img/pictogrammes/PerformancePicto.png" />
+        <img class="img-fluid zoom w-50 mx-auto d-block" src="img/pictogrammes/PerformancePicto.png" />
         <h3 class="text-center text-uppercase mb-4">Performance</h3>
         <ul class="text-grey list-solutions">
           <li class="item-solution">Apprenez à vous conditionner</li>
@@ -145,7 +137,7 @@
         </ul>
       </div>
       <div class="col-sm">
-        <img class="img-fluid zoom w-75 mx-auto d-block" src="img/pictogrammes/SuiviPicto.png" />
+        <img class="img-fluid zoom w-50 mx-auto d-block" src="img/pictogrammes/SuiviPicto.png" />
         <h3 class="text-center text-uppercase mb-4">Croissance</h3>
         <ul class="text-grey list-solutions">
           <li class="item-solution">Développez votre confiance en vous</li>
@@ -226,14 +218,14 @@
 
 <!-- methode 3c -->
 <section id="methode-3c">
-  <h4 class="text-center text-white font-weight-bold">Découvrez gratuitement les principes clés de la Méthode 3<span class="secondary-color">C</span></h4>
+  <h4 class="text-center text-white font-weight-bold">Découvrez gratuitement les principes clés de la Méthode 3<span class="secondary-color">C</span>™</h4>
   <div class="methode-3c-container container mb-5">
     <div class="row card-body">
       <div class="col-sm-4">
         <img class="img-fluid mb-4 zoom" src="img/utils/methode-3c-book.png" />
       </div>
       <div class="col-sm text-white mt-3">
-        <p>La Méthode 3<span class="secondary-color">C</span>™ est une méthode infaillible pour développer son Leadership personnel et atteindre n'importe
+        <p id="text-methode-3c">La Méthode 3<span class="secondary-color">C</span>™ est une méthode infaillible pour développer son Leadership personnel et atteindre n'importe
           quel objectif. Elle s'appuye notamment sur des concepts psychologiques et comportementaux indispensables
           à l'évolution personnelle.</p>
         <div class="form-group mt-4 w-75">
@@ -260,15 +252,11 @@
 
 <!-- statistic -->
 <section id="statistics">
-  <div id="counter" class="container">
+  <div id="counter" class="container container-statistics pt-3 pb-3">
     <div class="row d-flex justify-content-center">
       <div class="col-sm-4">
-        <div class="counter-value text-white display-3 text-center" data-count="60">0</div>
-        <h5 class="text-center text-grey font-weight-bold">jours pour devenir un OwnLeadr.</h5>
-      </div>
-      <div class="col-sm-4">
-        <div class="counter-value text-white display-3 text-center" data-count="142">0</div>
-        <h5 class="text-center text-grey font-weight-bold">ont déjà rejoint les membres de la communauté.</h5>
+        <div class="counter-value text-white display-3 text-center" data-count="90">0</div>
+        <h5 class="text-center text-grey font-weight-bold">jours pour devenir un OwnLeadr<span class="secondary-color">.</span></h5>
       </div>
       <div class="col-sm-4">
         <div class="counter-value text-white display-3 text-center" data-count="1">0</div>
@@ -290,12 +278,13 @@
 <!-- Fin de widget en ligne Calendly -->
 
 <section id="survey">
-  <div class="container d-flex justify-content-center mt-5">
+  <h4 class="text-white text-center">Quelles-sont les principales Problématiques ?</h4>
+  <div class="container container-survey d-flex justify-content-center mt-3">
     <div class="col-sm-9 mb-2">
       <img class="img-fluid w-25 rounded mx-auto d-block zoom" src="img/pictogrammes/SondagePicto.png"/>
-      <p class="text-responsive-question text-center text-white">Votre précieux retour d'expérience contribuera à la mise en place de solutions d'accompagnement pour les professionnels par l'équipe OwnLeadr et ses partenaires. Merci infinimment !</p>
-      <div class="d-flex justify-content-center mb-5">
-        <a class="typeform-share button" href="https://ownleadr.typeform.com/to/VC2ZGg" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#A2304F;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 15px;border-radius:5px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Participer </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+      <p class="text-survey text-center text-white">Votre précieux retour d'expérience contribuera à la mise en place de solutions d'accompagnement pour les professionnels par l'équipe OwnLeadr et ses partenaires. Merci infinimment !</p>
+      <div class="d-flex justify-content-center mb-3">
+        <a class="typeform-share button" href="https://ownleadr.typeform.com/to/VC2ZGg" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#A2304F;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:25px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 15px;border-radius:5px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Participer </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
       </div>
     </div>
   </div>

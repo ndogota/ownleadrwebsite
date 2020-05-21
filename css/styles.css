@@ -138,6 +138,14 @@ h4 {
   line-height: 32px;
 }
 
+.text-survey {
+  font-size: 1.3em;
+}
+
+#text-methode-3c {
+  font-size: 1.1em;
+}
+
 /* padding */
 
 .padding-0 {
@@ -168,5 +176,9 @@ h4 {
 /* color */
 
 .secondary-color {
+  color: #a2304f !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
   color: #a2304f !important;
 }
