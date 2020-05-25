@@ -43,7 +43,7 @@
 
 /* problematic */
 
-#problematics-layout, .container-leadership, .methode-3c-container, .container-survey, .container-statistics {
+#problematics-layout, .container-leadership, .methode-3c-container, .container-survey, .container-statistics, .container-politics {
   background-color: #0e0e0e;
   box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.06) inset;
   border-radius: 15px;
@@ -122,6 +122,18 @@ footer ul li{
 
 #calendly {
   padding-top: 100px !important;
+}
+
+/* politics */
+
+#politics{
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+
+.container-politics {
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 /* moving background */

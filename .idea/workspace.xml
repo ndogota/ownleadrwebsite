@@ -52,14 +52,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ndogota\Documents\GitHub\ownleadrwebsite" />
+      <recent name="C:\Users\ndogota\Documents\GitHub\ownleadrwebsite\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ndogota\Documents\GitHub\ownleadrwebsite" />
       <recent name="C:\Users\ndogota\Documents\GitHub\ownleadrwebsite\img\sliders" />
       <recent name="C:\Users\ndogota\Documents\GitHub\ownleadrwebsite\img\pictogrammes" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ndogota\Documents\GitHub\ownleadrwebsite" />
-      <recent name="C:\Users\ndogota\Documents\GitHub\ownleadrwebsite\img" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -89,7 +89,7 @@
       <workItem from="1590049626661" duration="1838000" />
       <workItem from="1590067170648" duration="3248000" />
       <workItem from="1590137748427" duration="7782000" />
-      <workItem from="1590395720584" duration="7058000" />
+      <workItem from="1590395720584" duration="10433000" />
     </task>
     <servers />
   </component>
