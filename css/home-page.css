@@ -23,6 +23,11 @@
   background-color: #bd3a5e !important;
 }
 
+.btn-discover:hover {
+  background: rgb(162,48,79);
+  background: linear-gradient(0deg, rgba(162,48,79,1) 0%, rgba(179,54,88,1) 54%, rgba(185,39,79,1) 100%);
+}
+
 .text-responsive {
   font-size: calc(60% + 1vw + 1vh) !important;
 }
