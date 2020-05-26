@@ -106,6 +106,15 @@ h4 {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.zoom-statistic {
+  margin-bottom: 3px;
+  transition: transform .2s; /* Animation */
+}
+
+.zoom-statistic:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 /* carousel citation */
 
 .container-quotes {
@@ -159,7 +168,9 @@ h4 {
   letter-spacing: 1px;
 }
 
-/* padding */
+.text-title {
+  font-size: 1.5em;
+}
 
 .padding-0 {
   padding-right:0;
