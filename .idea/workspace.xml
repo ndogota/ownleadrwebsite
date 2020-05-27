@@ -35,9 +35,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
-  </component>
   <component name="ProjectId" id="1bZc6p3AhZ42Irj8LuPVdMEJ48t" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -91,7 +88,8 @@
       <workItem from="1590137748427" duration="7782000" />
       <workItem from="1590395720584" duration="11794000" />
       <workItem from="1590481944161" duration="5288000" />
-      <workItem from="1590502009205" duration="2262000" />
+      <workItem from="1590502009205" duration="4064000" />
+      <workItem from="1590573262946" duration="2494000" />
     </task>
     <servers />
   </component>

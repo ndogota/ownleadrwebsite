@@ -3,13 +3,16 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Designer & Developer: Nicolae Dogotaru
+    Site : nicolaedogotaru.me
+    Location : Paris, France
 
 # THANKS
 
-    <name>
+    To Guillaume Côte, the owner of OwnLeadr.
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    CSS3, HTML5, JS
+    jQuery, Modernizr, Normalize.css
+    Bootstrap
