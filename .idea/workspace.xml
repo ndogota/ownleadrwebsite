@@ -29,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,6 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -92,6 +94,7 @@
       <workItem from="1590573262946" duration="4271000" />
       <workItem from="1590592874077" duration="780000" />
       <workItem from="1590653977346" duration="702000" />
+      <workItem from="1591693999380" duration="4343000" />
     </task>
     <servers />
   </component>
