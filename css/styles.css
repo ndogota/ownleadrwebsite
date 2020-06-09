@@ -59,6 +59,10 @@ h4 {
   background: linear-gradient(0deg, rgba(162,48,79,1) 0%, rgba(179,54,88,1) 54%, rgba(185,39,79,1) 100%);
 }
 
+.button-up {
+  margin-top: -80px;
+}
+
 /* text */
 
 @media screen and (max-width: 990px) {
@@ -195,6 +199,12 @@ h4 {
 
 .partner-image {
   opacity: 0.3;
+}
+
+@media screen and (max-width: 990px){
+  .img-partner {
+    max-width: 60px !important;
+  }
 }
 
 /* color */
