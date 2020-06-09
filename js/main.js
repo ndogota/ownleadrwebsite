@@ -77,7 +77,7 @@ $(document).ready(function() {
     $('.hideme').each( function(i){
       var bottom_of_object = $(this).position().top + $(this).outerHeight();
       if (window.innerWidth > 1000) {
-        bottom_of_object -= 600;
+        bottom_of_object -= 800;
       } else {
         bottom_of_object -= 1800;
       }
@@ -94,4 +94,16 @@ $(document).ready(function() {
 
   });
 
+});
+
+$(document).ready(function(){
+  var fadetime = 1000;
+  var delaytime = 800;
+  function carousel(){
+    $('.entry:first-child').fadeIn(fadetime).delay(delaytime).queue(function(){
+      $(this).fadeOut(fadetime).appendTo('.entries').dequeue();
+    });
+  }
+  carousel();
+  setInterval( function(){ carousel() }, fadetime + delaytime);
 });

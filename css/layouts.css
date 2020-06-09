@@ -160,3 +160,18 @@ footer ul li{
 {
   opacity:0;
 }
+
+/* text animation */
+
+.entries {
+  padding: 1em;
+  margin: 1em auto;
+  height: 3em;
+}
+.entries .entry {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: none;
+}
