@@ -190,7 +190,7 @@ footer ul li{
     font-size: 1.3em !important;
   }
   #container-carousel {
-    display: none;
+    display: none !important;
   }
   #problematics {
     display: none;
@@ -200,5 +200,9 @@ footer ul li{
   }
   .img-genius {
     width: 20%;
+  }
+  .img-logo {
+    width: 90%;
+    image-rendering: optimizeQuality;
   }
 }
