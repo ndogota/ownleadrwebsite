@@ -178,6 +178,10 @@ footer ul li{
 
 /* mobile layout hide */
 
+.layout-responsive {
+  width: 75% !important;
+}
+
 @media screen and (max-width: 990px){
   h4 {
     font-size: 1.3em !important;
@@ -190,5 +194,11 @@ footer ul li{
   }
   #problematics {
     display: none;
+  }
+  .layout-responsive {
+    width: 100% !important;
+  }
+  .img-genius {
+    width: 20%;
   }
 }

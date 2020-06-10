@@ -67,6 +67,7 @@ h4 {
 
 .button-up {
   margin-top: -80px;
+  width: 3.5em;
 }
 
 /* text */
@@ -214,7 +215,7 @@ h4 {
 
 @media screen and (max-width: 990px){
   .img-partner {
-    max-width: 60px !important;
+    width: 100% !important;
   }
 }
 
@@ -227,3 +228,7 @@ h4 {
 .navbar-dark .navbar-nav .nav-link.active {
   color: #a2304f !important;
 }
+
+/* icon */
+
+.icon-up-open:before { content: '\e803'; } /* '' */
