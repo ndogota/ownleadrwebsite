@@ -175,3 +175,20 @@ footer ul li{
   text-align: center;
   display: none;
 }
+
+/* mobile layout hide */
+
+@media screen and (max-width: 990px){
+  h4 {
+    font-size: 1.3em !important;
+  }
+  h3 {
+    font-size: 1.3em !important;
+  }
+  #container-carousel {
+    display: none;
+  }
+  #problematics {
+    display: none;
+  }
+}
