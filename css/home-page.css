@@ -32,6 +32,17 @@
   font-size: calc(60% + 1vw + 1vh) !important;
 }
 
+.text-responsive-cible {
+  font-size: calc(50% + 1vw + 1vh) !important;
+}
+
+@media screen and (max-width: 990px) {
+  .text-responsive-cible {
+    font-size: calc(60% + 1vw + 1vh) !important;
+  }
+}
+
+
 .text-responsive-question {
   font-size: 1.5em;
 }

@@ -36,6 +36,12 @@ h4 {
   color: #797979 !important;
 }
 
+.text-grey-gradiant {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .important-statistic {
   color: #a2304f !important;
 }
@@ -182,7 +188,7 @@ h4 {
 }
 
 .question-cible {
-  font-size: 1.9em;
+  font-size: 0.1em !important;
   color: #ffffff;
 }
 
